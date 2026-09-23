@@ -1,22 +1,23 @@
 body {
-    background-color: orange;
+    background-repeat: repeat;
+    background-image: url(img/Tile.png);
+    background-size: 100px;
 }
 .mainbox {
     border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 10px 10px black;
+    background-color: rgb(64 64 64 / 255);
+    box-shadow: 1cap 10px 10px black;
     width: 80%;
     padding: 15px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-right: 10%;
     margin-left: 10%;
     text-align: left;
 }
 .upbox {
     border-radius: 10px;
     background-color: darkblue;
-    box-shadow: 0 10px 10px black;
+    box-shadow: 1cap 10px 10px black;
     width: 98%;
     height: 72px;
     margin-left: 1%;
@@ -45,18 +46,22 @@ body {
     color: white;
 }
 h1 {
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 16px;
 }
 h2 {
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 8px;
 }
 h3 {
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 6px;
 }
 h4 {
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 4px;
 }
