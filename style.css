@@ -1,0 +1,60 @@
+body {
+    background-color: orange;
+}
+.mainbox {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 10px 10px black;
+    width: 80%;
+    padding: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    align-content: start;
+}
+.upbox {
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 0 10px 10px black;
+    width: 98%;
+    height: 72px;
+    margin-left: 1%;
+    text-align: left;
+    align-content: center;
+    line-height: 64px;
+}
+.upbuttons {
+    border-radius: 25px;
+    height: 40%;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-left: 16px;
+    color: white;
+    background-color: orange;
+    border-width: 0px;
+    transition: ease 0.5s;
+}
+.upbuttons:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.upbuttons:active {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 16px;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 8px;
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 6px;
+}
