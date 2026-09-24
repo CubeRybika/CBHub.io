@@ -13,6 +13,7 @@ body {
     margin-bottom: 5%;
     margin-left: 10%;
     text-align: left;
+
 }
 .upbox {
     border-radius: 10px;
@@ -24,6 +25,35 @@ body {
     text-align: left;
     align-content: center;
     line-height: 64px;
+    column-count: 64px;
+}
+.pofigbox {
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1cap 10px 10px black;
+}
+.pofigbox img{
+    float: left;
+    border-radius: 15px;
+    margin-right: 25px;
+    box-shadow: 0 0px 25px black;
+}
+.pofigbox .textblock {
+    display: block;
+}
+.pofigbox .textblock p {
+    font-family: 'DeJavu Sans Mono';
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0px 25px black;
+}
+.pofigbox::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 .upbuttons {
     border-radius: 25px;
@@ -34,7 +64,7 @@ body {
     color: white;
     background-color: orange;
     border-width: 0px;
-    transition: ease 0.5s;
+    transition: ease 0.15s;
 }
 .upbuttons:hover {
     color: black;
