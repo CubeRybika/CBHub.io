@@ -74,6 +74,7 @@ body {
 .upbuttons:active {
     background-color: orange;
     color: white;
+    transition: ease 0.1s
 }
 h1 {
     color: white;
