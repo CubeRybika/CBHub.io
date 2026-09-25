@@ -42,7 +42,7 @@ body {
 .pofigbox textblock {
     display: block;
 }
-.pofigbox textblock p {
+.pofigbox .textblock p {
     font-family: 'DeJavu Sans Mono';
     color: white;
     padding: 5px;
