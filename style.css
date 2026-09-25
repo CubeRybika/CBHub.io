@@ -39,10 +39,10 @@ body {
     margin-right: 25px;
     box-shadow: 0 0px 25px black;
 }
-.textblock {
+.pofigbox .textblock {
     display: block;
 }
-.textblock p {
+.pofigbox .textblock p {
     font-family: 'DeJavu Sans Mono';
     color: white;
     padding: 5px;
